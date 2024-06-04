@@ -13,7 +13,7 @@ body {
 h1 {
   font-family: var(--varelaRound);
   color: var(--lightColorA);
-  animation: opacityPulse 1.2s infinite;
+  animation: opacityPulse 2.2s infinite;
 }
 p {
   color: var(--lightColorB);
