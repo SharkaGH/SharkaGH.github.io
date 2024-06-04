@@ -6,15 +6,15 @@ $lightColorA:#a1d2c5;
 $lightColorB:#b5dda5;
 
 body {
-  background-color: darkColor;
+  background-color: $darkColor;
 }
 h1 {
-  font-family: $Varela Round;
-  color: lightColorA;
+  font-family: $varelaRound;
+  color: $lightColorA;
   animation: opacityPulse 1.2s infinite;
 }
 p {
-  color: lightColorB;
+  color: $lightColorB;
 }
 
 @keyframes opacityPulse {
