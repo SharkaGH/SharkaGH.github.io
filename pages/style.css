@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+$varelaRound: "Varela Round";
+
+$darkColor:#9099a0;
+$lightColorA:#a1d2c5;
+$lightColorB:#b5dda5;
+
+body {
+  background-color: darkColor;
+}
+h1 {
+  font-family: $Varela Round;
+  color: lightColorA;
+  animation: opacityPulse 1.2s infinite;
+}
+p {
+  color: lightColorB;
+}
+
+@keyframes opacityPulse {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  40% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.82;
+  }
+  100% {
+    opacity: 1;
+  }
+}
